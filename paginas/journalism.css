@@ -1,0 +1,50 @@
+.container-1{
+display: flex;
+
+
+
+}
+.w-50{
+width: 50%;
+
+
+}
+.w-50-2{
+width: 50%;
+
+
+}
+.division{
+gap: 20px;
+    display: flex;
+}
+.campo{
+
+width: 95%;
+margin: 20px 60px;
+margin-bottom: 5px;
+}
+
+
+.margin{
+
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+.imagenes{
+
+display: flex;
+gap: 25px;
+margin: 30px 10px;
+margin-bottom: 130px;
+
+}
+.img-1 {
+width: 33%;
+
+}
+.acomodo-img{
+
+    width: 100%;
+    margin-bottom: 10px;
+}

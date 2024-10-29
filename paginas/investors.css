@@ -1,0 +1,114 @@
+#img-header
+{
+    width: 100%;
+}
+
+#imgarrow
+{
+    width: 30px;
+    height: 30px;
+}
+
+section
+{
+    width: 100%;
+    position: relative;
+    height:500px;
+}
+
+#info-1
+{
+    position: relative;
+    left: 50%;
+    display: flex;
+    position: relative;
+    width: 40%;
+}
+
+#lis1
+{
+    float: left;
+    position: relative;
+    left: 40%;
+    margin-top: 100px;
+}
+
+#lis2
+{
+    float: right;
+    position: relative;
+    margin-top: 100px;
+    right: 5%;
+}
+
+#linkApply
+{
+    position: relative;
+    top: 270px;
+    left: 40%;
+}
+
+#list3
+{
+    position: relative;
+    left: 50%;
+}
+
+#img-main-container-1
+{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    
+}
+
+#img-main-container-2
+{
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    
+    left: 30%;
+}
+
+.imgcontainer
+{
+    width: 100%;
+    position: relative;
+}
+
+.img-1{
+    
+    display: block;
+    position: relative;
+    left: 60%;
+}
+
+.img-2{
+    
+    display: block;
+    position: relative;
+    left: 80%;
+    bottom: 226px;
+}
+
+#maincontainerinfotext
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content1
+{
+    width: 20%;
+
+}
+
+#content2
+{
+    width: 20%;
+
+}

@@ -1,0 +1,19 @@
+.bg-yellow{
+    display: flex;
+    background-color: #f9a230;
+    justify-content: start;
+    align-items: baseline;
+    height: 120px;
+    margin-bottom: 20px;
+  
+}
+.margin-arrow{
+
+    margin-left: 50px;
+    margin-right: 7px;
+}
+.letra-footer{
+
+  font-weight: 700;
+  padding-top: 30px;
+}

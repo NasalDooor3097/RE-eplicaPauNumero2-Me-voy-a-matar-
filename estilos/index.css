@@ -1,0 +1,26 @@
+
+.container-p{
+
+    display: flex;
+
+}
+.caja-1{
+    margin-top: 300px;
+    margin-bottom: 200px;
+   margin-left: 60px;
+    width: 60%;
+}
+.caja-2{
+
+    width: 40%;
+}
+.bg-yellow{
+
+    background-color: #f9a230;
+
+    height: 134px;
+}
+.letra{
+font-size: 52px;
+font-weight: 100;
+}
