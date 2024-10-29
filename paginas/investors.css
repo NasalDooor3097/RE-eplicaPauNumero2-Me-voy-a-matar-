@@ -13,7 +13,7 @@ section
 {
     width: 100%;
     position: relative;
-    height:500px;
+    height:900px;
 }
 
 #info-1
@@ -103,12 +103,12 @@ section
 
 #content1
 {
-    width: 20%;
+    width: 40%;
 
 }
 
 #content2
 {
-    width: 20%;
+    width: 40%;
 
 }
