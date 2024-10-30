@@ -43,6 +43,18 @@ body
 
     @media (max-width: 600px) 
 {
+    .navbar li {
+        
+    }
+    
+    .navbar a {
+        color: #150101;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        right: 250%;
+    }
+
     .navbar {
         width: 100%;
         background-color: rgb(215, 215, 224);
@@ -57,4 +69,9 @@ body
         padding: 0;
     }
 
+    .mark
+    {
+        position: absolute;
+        right: 65%;
+    }
 }
