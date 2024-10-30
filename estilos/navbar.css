@@ -6,7 +6,6 @@ body
 
 
     .navbar {
-       margin-right: 65px;
         padding: 10px;
         margin-top: 14px;
         margin-bottom: 60px;
@@ -14,8 +13,9 @@ body
     }
 
     .navbar ul {
-        display: flex;
-        justify-content: flex-end;
+        display: inline-flex;
+        position: relative;
+        left: 70%;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -40,3 +40,21 @@ body
         0 0 20px rgb(0, 0, 255),
         0 0 20px rgb(0, 0, 255);
     }
+
+    @media (max-width: 600px) 
+{
+    .navbar {
+        width: 100%;
+        background-color: rgb(215, 215, 224);
+    }
+
+    .navbar ul
+    {
+        display: inline-flex;
+        position: relative;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+}
