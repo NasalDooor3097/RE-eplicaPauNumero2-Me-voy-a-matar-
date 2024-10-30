@@ -41,7 +41,7 @@ body
         0 0 20px rgb(0, 0, 255);
     }
 
-    @media (max-width: 600px) 
+    @media (max-width: 1000px) 
 {
     .navbar li {
         
