@@ -1,4 +1,9 @@
 
+body
+{
+    font-family: "Montserrat", "sans-serif";
+}
+
 
 .container-1{
 justify-content:space-between;

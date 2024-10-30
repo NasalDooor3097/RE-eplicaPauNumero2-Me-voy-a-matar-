@@ -1,9 +1,16 @@
 
+body
+{
+    font-family: "Montserrat", "sans-serif";
+}
+
+
     .navbar {
        margin-right: 65px;
         padding: 10px;
         margin-top: 14px;
         margin-bottom: 60px;
+        background-color: rgb(215, 215, 224);
     }
 
     .navbar ul {
@@ -22,9 +29,14 @@
         color: #150101;
         text-decoration: none;
         font-weight: 600;
+        font-size: 30px;
     }
 
     .navbar a:hover {
-        color: #ffd700;
-     
+        border-radius: 10px;
+        color: black;
+        background-color: rgba(193, 200, 243, 0.842);
+        box-shadow: 0 0 10px rgb(0, 0, 255, 0.1),
+        0 0 20px rgb(0, 0, 255),
+        0 0 20px rgb(0, 0, 255);
     }

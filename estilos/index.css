@@ -1,3 +1,8 @@
+body
+{
+    font-family: "Montserrat", "sans-serif";
+}
+
 
 .container-p{
 
@@ -12,11 +17,25 @@
 }
 .caja-2{
 
+    display: flex;
     width: 40%;
+    position: relative;
+    top: 10%;
+}
+
+img
+{
+    width: 70%;
+    height: 40%;
+    border-radius: 50px;
+    top: 30%;
+    display:flex;
+    position: absolute;
+    left: 10%;
 }
 .bg-yellow{
 
-    background-color: #f9a230;
+    background-color: blue;
 
     height: 134px;
 }

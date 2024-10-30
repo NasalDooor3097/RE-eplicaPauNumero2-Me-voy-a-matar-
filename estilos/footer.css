@@ -1,6 +1,12 @@
+body
+{
+    font-family: "Montserrat", "sans-serif";
+}
+
+
 .bg-yellow{
     display: flex;
-    background-color: #f9a230;
+    background-color: blue;
     justify-content: start;
     align-items: baseline;
     height: 120px;
