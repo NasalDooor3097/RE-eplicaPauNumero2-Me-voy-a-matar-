@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="/estilos/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <h1 id="title">Iniciar sesión</h1>
+    <main>
+
+
+
+        <p id="img-container">
+            <img id="img" src="/img/ddtech.jpeg" alt="Imagen de ddtech">
+        </p>
+
+
+
+        <form method="post" class="formulario" id="formulario" onsubmit="return validar()">
+            <div class="container-form">
+                <label style="font-size: 2rem; font-weight: 700; margin-bottom: 26px;">Ingrese su información</label>
+
+             
+                <br>
+
+                
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+             
+
+                <br>
+                
+       
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                </div>
+
+
+
+                <br>
+                
+
+
+                <div>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
+                </div>
+
+                
+
+                <br>
+                
+
+
+                <div>
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="Ingresa tu telefono" required>
+                </div>
+
+                
+                <br>
+                
+
+
+                <div>
+                    <label for="dic">Dirección:</label>
+                    <input type="text" id="dic" name="dic" placeholder="Ingresa tu direccion" required>
+                </div>
+
+                
+
+                <br>
+                
+
+
+                <div>
+                    <label for="gen">Género:</label>
+                    <select name="gen" id="gen" required>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="no binario">No binario</option>
+                        <option value="No">Prefiero no decirlo</option>
+                    </select>
+                </div>
+
+
+                <br>
+                
+          
+                <div>
+                    <label for="commit">Comentarios:</label>
+                    <textarea name="commit" id="commit" placeholder="Ingresa un comentario..." required></textarea>
+                </div>
+
+                <div>
+                    <button class="ingresa" onclick="validar(event)" type="submit">Ingresar</button>
+                    <button class="ingresa" type="reset">Borrar</button>
+                </div>
+            </div>
+        </form>
+
+
+    </main>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="/js/login.js"></script>
 </body>
+
 </html>
