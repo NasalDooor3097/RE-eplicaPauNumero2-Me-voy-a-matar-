@@ -6,7 +6,7 @@ body
 
 nav
 {
-    background-color: beige;
+    background-color:white;
 }
 
 .navegacion
@@ -55,5 +55,10 @@ ul li:hover ul.dropmenu{
     display: block;
     background-color: rgb(209, 207, 207);
     border-radius: 10px;
+}
+
+ul li ul a:hover
+{
+    background-color: white;
 }
 
